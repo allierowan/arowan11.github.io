@@ -4,6 +4,4 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-### About Me
-
-[Resume](/assets/Resume.pdf)
+My name is Allie Rowan. I am a software developer based in Washington, DC.

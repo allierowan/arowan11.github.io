@@ -1,9 +1,45 @@
+* {
+  font-family: "Courier New";
+}
 .ar-intro {
   // background-color: #CBC8C7;
 }
 .ar-pic {
   border-radius: 300px;
-  width: 220px;
-  height: 220px;
+  width: 160px;
+  height: 160px;
   -webkit-filter: contrast(120%);
+}
+.navbar-header a.navbar-brand {
+  color: rgb(50, 50, 50);
+  small {
+    color: rgb(160, 160, 160);
+  }
+}
+
+p {
+  font-size: 20px;
+  color: rgb(50, 50, 50);
+}
+.profile-content {
+
+  p {
+    padding-top: 65px;
+    padding-left: 60px;
+    color: rgb(50, 50, 50);
+  }
+}
+.about-me {
+
+  p {
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-left: 60px;
+    color: rgb(50, 50, 50);
+  }
+  .highlight {
+    padding-top: 60px;
+    padding-right: 150px;
+    padding-left: 60px;
+  }
 }
