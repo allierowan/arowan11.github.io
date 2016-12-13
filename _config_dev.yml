@@ -18,12 +18,11 @@ email: aileen.s.rowan@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   All about Allie Rowan
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://arowan11.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://0.0.0.0:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AllieRowan
 github_username:  arowan11
-
-markdown: kramdown
 highlighter: rouge
+markdown: kramdown
 sass:
   style: compressed
 
