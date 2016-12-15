@@ -2,7 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/journal/bootstrap.min.css" rel="stylesheet" integrity="sha384-1L94saFXWAvEw88RkpRz8r28eQMvt7kG9ux3DdCqya/P3CfLNtgqzMnyaUa49Pl2" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{ site.url }}/assets/styles.css">
@@ -12,23 +18,29 @@
   <body>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
-        <div class="navbar-header">
-          <a href = "/" class="navbar-brand">Allie Rowan <small>ruby developer</small></a>
-        </div>
-         <ul class="nav navbar-nav navbar-right">
-           <li>
-             <a>301.332.5350</a>
-           </li>
-           <li>
-             <a href="https://github.com/arowan11"><img src="{{ site.url }}/assets/github.png" alt="github logo" height=17 width=17/></a>
-           </li>
-           <li>
-             <a href="https://www.linkedin.com/in/aileenrowan"><img src="{{ site.url }}/assets/linkedin.png" alt="linked in logo" height=17 width=17 /></a>
-           </li>
-           <li>
-             <a href="mailto:aileen.s.rowan@gmail.com"><img src="{{ site.url }}/assets/email.png" alt="email logo" height=17 width=17/></a>
-           </li>
-         </ul>
+        <a href = "/" class="navbar-brand">Allie Rowan <small>ruby developer</small></a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <header id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right">
+             <li>
+               <a>301.332.5350</a>
+             </li>
+             <li>
+               <a href="https://github.com/arowan11"><img src="{{ site.url }}/assets/github.png" alt="github logo" height=17 width=17/></a>
+             </li>
+             <li>
+               <a href="https://www.linkedin.com/in/aileenrowan"><img src="{{ site.url }}/assets/linkedin.png" alt="linked in logo" height=17 width=17 /></a>
+             </li>
+             <li>
+               <a href="mailto:aileen.s.rowan@gmail.com"><img src="{{ site.url }}/assets/email.png" alt="email logo" height=17 width=17/></a>
+             </li>
+           </ul>
+         </header>
         </div>
      </nav>
     <div class="container">
