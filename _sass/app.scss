@@ -4,8 +4,37 @@
     border: none;
   }
 }
-.ar-intro {
-  // background-color: #CBC8C7;
+.main-nav {
+  li:first-child {
+    margin-top: 20px;
+  }
+  li {
+    margin-left: 32px;
+  }
+}
+div#ydr-descr, #cake-descr, #forgeddit-descr {
+  display: none;
+  p {
+    margin-left: 20px;
+  }
+  img {
+    margin-left: 20px;
+  }
+}
+h3.projects {
+  margin-bottom: 35px;
+}
+p.footer {
+  margin-top: 70px;
+}
+.project-header {
+  margin-left: 15px;
+  font-size: 20px;
+  small a {
+    color: rgb(91, 91, 91);
+    font-size: 14px;
+    padding-left: 5px;
+  }
 }
 .ar-pic {
   border-radius: 300px;
@@ -20,24 +49,24 @@
   }
 }
 
-p {
+p.me-descr {
   font-size: 20px;
   color: rgb(50, 50, 50);
 }
 .profile-content {
 
-  p {
+  p.me-descr {
     padding-top: 65px;
-    padding-left: 60px;
+    padding-left: 20px;
     color: rgb(50, 50, 50);
   }
 }
 .about-me {
 
-  p {
+  p.me-descr {
     padding-top: 40px;
     padding-right: 80px;
-    padding-left: 60px;
+    padding-left: 20px;
     color: rgb(50, 50, 50);
   }
   .highlight {
@@ -93,5 +122,10 @@ p {
     padding-top: 60px;
     padding-right: 20px;
     padding-left: 20px;
+  }
+  .profile-content, .about-me {
+    p.me-descr {
+      padding-top: 0px;
+    }
   }
 }

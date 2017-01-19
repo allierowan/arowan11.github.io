@@ -4,4 +4,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+<p class="me-descr">
 My name is Allie Rowan. I am a software developer based in Washington, DC.
+</p>
