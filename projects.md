@@ -3,6 +3,8 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+title: About
+permalink: projects/
 ---
 <h3 class="projects"> Projects </h3>
 <h4 class="project-header">
